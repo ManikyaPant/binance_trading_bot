@@ -1,0 +1,44 @@
+2026-06-08 20:18:50,933 | DEBUG | bot.config | Loaded API key: your...here
+2026-06-08 20:18:50,934 | INFO | bot.orders | Placing BUY MARKET order for 0.001 BTCUSDT
+2026-06-08 20:18:50,934 | INFO | bot.client | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780930130934, 'signature': '***'}
+2026-06-08 20:18:50,944 | DEBUG | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-08 20:18:51,161 | DEBUG | urllib3.connectionpool | https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1780930130934&signature=98c33ad7038d76a67510c2f80b5fd50fc267643e5dad6c55d741cbdb8edaf7c3 HTTP/1.1" 401 46
+2026-06-08 20:18:51,162 | DEBUG | bot.client | Raw response [401]: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 20:18:51,162 | ERROR | bot.client | API error 401: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 20:18:51,162 | ERROR | __main__ | API error: Binance API error (HTTP 401): {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 20:20:18,691 | DEBUG | bot.config | Loaded API key: your...here
+2026-06-08 20:20:18,692 | INFO | bot.orders | Placing BUY MARKET order for 0.001 BTCUSDT
+2026-06-08 20:20:18,692 | INFO | bot.client | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780930218692, 'signature': '***'}
+2026-06-08 20:20:18,693 | DEBUG | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-08 20:20:18,899 | DEBUG | urllib3.connectionpool | https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1780930218692&signature=eed7f9f931cd61f001bcb27ca13492e9a4c8d9cd90c47a708ea3c5cbee9fcbce HTTP/1.1" 401 46
+2026-06-08 20:20:18,900 | DEBUG | bot.client | Raw response [401]: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 20:20:18,900 | ERROR | bot.client | API error 401: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 20:20:18,900 | ERROR | __main__ | API error: Binance API error (HTTP 401): {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 20:21:09,087 | DEBUG | bot.config | Loaded API key: Pei4...gNGQ
+2026-06-08 20:21:09,088 | INFO | bot.orders | Placing BUY MARKET order for 0.001 BTCUSDT
+2026-06-08 20:21:09,088 | INFO | bot.client | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780930269088, 'signature': '***'}
+2026-06-08 20:21:09,089 | DEBUG | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-08 20:21:09,308 | DEBUG | urllib3.connectionpool | https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1780930269088&signature=4a635a7f6683626077350d786f4188c3065e6b079d805f0871529514b385c180 HTTP/1.1" 400 88
+2026-06-08 20:21:09,308 | DEBUG | bot.client | Raw response [400]: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-06-08 20:21:09,308 | ERROR | bot.client | API error 400: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-06-08 20:21:09,309 | ERROR | __main__ | API error: Binance API error (HTTP 400): {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-06-08 20:22:09,260 | DEBUG | bot.config | Loaded API key: Pei4...gNGQ
+2026-06-08 20:22:09,261 | DEBUG | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-08 20:22:09,462 | DEBUG | urllib3.connectionpool | https://testnet.binancefuture.com:443 "GET /fapi/v1/time HTTP/1.1" 200 28
+2026-06-08 20:22:09,463 | DEBUG | bot.client | Server time offset: -22382 ms
+2026-06-08 20:22:09,464 | INFO | bot.orders | Placing BUY MARKET order for 0.001 BTCUSDT
+2026-06-08 20:22:09,464 | INFO | bot.client | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780930307082, 'signature': '***'}
+2026-06-08 20:22:09,466 | DEBUG | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-08 20:22:09,693 | DEBUG | urllib3.connectionpool | https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1780930307082&signature=98515f55eb3ad2e3e348d99efa0acaba3bb76878f3ee3a3e4551eef437fb8728 HTTP/1.1" 200 None
+2026-06-08 20:22:09,694 | DEBUG | bot.client | Raw response [200]: {"orderId":14504792535,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"7Kw852i05bLt3sDcQXUPSp","price":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1780930307306}
+2026-06-08 20:22:09,695 | INFO | bot.orders | Order placed successfully: orderId=14504792535
+2026-06-08 20:22:18,867 | DEBUG | bot.config | Loaded API key: Pei4...gNGQ
+2026-06-08 20:22:18,868 | DEBUG | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-08 20:22:19,075 | DEBUG | urllib3.connectionpool | https://testnet.binancefuture.com:443 "GET /fapi/v1/time HTTP/1.1" 200 28
+2026-06-08 20:22:19,076 | DEBUG | bot.client | Server time offset: -22385 ms
+2026-06-08 20:22:19,076 | INFO | bot.orders | Placing BUY LIMIT order for 0.001 BTCUSDT
+2026-06-08 20:22:19,076 | INFO | bot.client | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'timeInForce': 'GTC', 'price': '50000.0', 'timestamp': 1780930316691, 'signature': '***'}
+2026-06-08 20:22:19,078 | DEBUG | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-08 20:22:19,283 | DEBUG | urllib3.connectionpool | https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timeInForce=GTC&price=50000.0&timestamp=1780930316691&signature=bbe0790c3f9a81ff6675f1700a869e9ae12d26cb5d69d06bce0be00d39946364 HTTP/1.1" 200 None
+2026-06-08 20:22:19,284 | DEBUG | bot.client | Raw response [200]: {"orderId":14504800446,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"LDKfWcyxLPw2lnbIL2WGgS","price":"50000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1780930316899}
+2026-06-08 20:22:19,285 | INFO | bot.orders | Order placed successfully: orderId=14504800446
